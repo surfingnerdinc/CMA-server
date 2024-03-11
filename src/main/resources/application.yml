@@ -1,0 +1,23 @@
+define:
+  random: 10825bb5d3d781e51d2cb8c6230297a6ae5f6a0e7f0cb7e51ec961c3065ff2398464279a2682c136fe9e718da98df8bdb39092ea9badd7825ac81034d410a1de
+
+spring:
+  application:
+    name: Clinic Management App
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/cma
+    username: root
+    password:
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+server:
+  port: 8080
+
+
+
+
